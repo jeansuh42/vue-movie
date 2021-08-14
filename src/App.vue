@@ -17,10 +17,6 @@ export default {
     Header,
     Footer
   }
-  // , mounted () {
-  //   const u = heropy(['A', 'B', 'C', 'A', 'B'])
-  //   console.log(u)
-  // }
 }
 </script>
 

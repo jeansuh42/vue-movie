@@ -64,12 +64,13 @@ computed: {
     isMatch(path){
       if (!path) return false
       return path.test(this.$route.fullPath)
-    }
-  }, 
-  toAbout() {
-    console.log('/about')
-    this.$router.push('/about')
-} 
+    },
+    toAbout() {
+      console.log('/about')
+      this.$router.push('/about')
+    } 
+  } 
+  
 }
 </script>
 

@@ -123,13 +123,6 @@ export default {
 //   title: '어쩌고저쩌고'
 // })
 
-
 async function _fetchMovie(payload) { 
-  const { title, type, year, page, id } = payload
-  //const { title } = payload
-  const url = id
-  ? `http://www.omdbapi.com/?apikey=7035c60c&i=${id}&plot=full`
-  : `http://www.omdbapi.com/?apikey=7035c60c&s=${title}&type=${type}&y=${year}&page=${page}`
-
-  return await axios.get(url)
+ return await axios.post('/.netlify/functions/movie', payload)
 }
