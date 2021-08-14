@@ -27,48 +27,45 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.movie{
-  $size: 273px;
+.movie {
+  $size: 200px;
   width: $size;
   height: $size * 3 / 2;
-  margin: 10px; 
-  border-radius: 4px; 
+  margin: 10px;
+  border-radius: 4px;
   background-color: $gray-400;
   background-size: cover;
-  overflow: hidden; 
+  overflow: hidden;
   position: relative;
-  &:hover::after{
+  &:hover::after {
     content: "";
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     border: 6px solid $primary;
-   }
+  }
   .info {
     width: 100%;
     padding: 14px;
-    font-size: 14px; 
+    font-size: 14px;
     text-align: center;
     box-sizing: border-box;
     position: absolute;
-    left: 0; 
+    left: 0;
     bottom: 0;
     backdrop-filter: blur(10px);
     background-color: rgba($black, .3);
     .year {
       color: $primary;
     }
-    .title{
-        width: auto; 
-        color:$white;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        overflow: hidden;
+    .title {
+      color: $white;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
     }
   }
-
 }
-
 </style>

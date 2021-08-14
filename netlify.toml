@@ -1,5 +1,5 @@
-[bulid]
-  command = "npm run bulid" 
+[build]
+  command = "npm run build" 
   functions = "functions"
   publish = "dist"
 

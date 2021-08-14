@@ -43,7 +43,7 @@ data() {
         href: '/'
       },
       { name: 'Movie',
-        href: '/moive/tt4520988',
+        href: '/movie/tt4520988',
         path: /^\/movie/ // /movie로 시작(^)하는 주소 -> 정규식으로 일치
       }, 
       { name: 'About', 
