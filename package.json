@@ -15,7 +15,10 @@
     "vue-router": "^3.5.2",
     "vuex": "^3.6.2"
   },
-  "browsersList": {},
+  "browsersList": [
+    "> 1%",
+    "last 2 versions"
+  ],
   "devDependencies": {
     "@babel/core": "^7.14.8",
     "@babel/preset-env": "^7.14.8",
